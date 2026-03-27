@@ -191,9 +191,9 @@ export default function Home() {
               <div className="tag" style={{ marginBottom: '22px' }}>Who We Are</div>
               <h2 style={{ marginBottom: '20px' }}>Minimizing Cost,<br /><em style={{ color: C.lime, fontStyle: 'italic' }}>Maximizing Impact</em></h2>
               <p style={{ marginBottom: '16px', color: C.grayLight }}>Servelead Global is a world class AI powered business development organization that empowers startups and helps businesses build, operate, and scale sustainably across Africa.</p>
-              <p style={{ marginBottom: '36px', color: C.grayLight }}>We assist African businesses to minimize cost and maximize profit through strategic AI integration taking startups from idea validation to market entry and fund readiness.</p>
+              <p style={{ marginBottom: '36px', color: C.grayLight }}>We assist African businesses to minimize cost and maximize profit through strategic AI integration  taking startups from idea validation to market entry and fund readiness.</p>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '36px' }}>
-                {['AI-powered growth strategies', 'Venture studio partnerships', 'End-to-end business support'].map(item => (
+                {['AI powered growth strategies', 'Venture studio partnerships', 'End-to-end business support'].map(item => (
                   <li key={item} style={{ display: 'flex', gap: '10px', alignItems: 'center', fontSize: '0.92rem', color: C.grayLight }}>
                     <span style={{ color: C.lime, flexShrink: 0 }}><IconCheck size={16} /></span>{item}
                   </li>
