@@ -1,10 +1,12 @@
+import type { ReactNode } from 'react';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import ClientLayout from '../components/ClientLayout';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Servelead Global | AI-Powered Business Development',
-  description: "Africa's Premier AI-Powered Business Development Organization. Empowering startups, building organizations, and driving sustainable growth across Africa and beyond.",
-  keywords: 'Servelead Global, AI Business Development, African Startups, Venture Studio, Nigeria, Business Consulting, Tech Talent',
+  description: "Africa's Premier AI-Powered Business Development Organization.",
+  keywords: 'Servelead Global, AI Business Development, African Startups, Venture Studio, Nigeria',
   openGraph: {
     type: 'website',
     title: 'Servelead Global | AI-Powered Business Development',
@@ -14,16 +16,16 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Servelead Global',
-    description: 'AI-Powered Business Development for Africa\'s Future',
+    description: "AI-Powered Business Development for Africa's Future",
   },
   icons: { icon: '/logo.png' },
-  
-};
-export const viewport = {
-  themeColor: "#0A2E1A",
 };
 
-export default function RootLayout({ children }) {
+export const viewport: Viewport = {
+  themeColor: '#0A2E1A',
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -35,10 +37,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {/* Custom cursor */}
         <div id="cursor" />
         <div id="cursor-follower" />
-        {/* All client-side logic (Navbar, Footer, SplashScreen, GSAP curtain) */}
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>

@@ -10,9 +10,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const C={L:'#B8FF00',D:'#060F09',D2:'#0c1a10',GD:'#0A2E1A',GM:'#0F4A28',CR:'#F5F2EC',GR:'#8A9990',GL:'#b5c4bc'};
 const vals=[
-  {Icon:IconBolt,n:'Excellence',d:'We pursue the highest standards in everything we do, delivering world-class results for every client and partner.'},
+  {Icon:IconBolt,n:'Excellence',d:'We pursue the highest standards in everything we do, delivering world class results for every client and partner.'},
   {Icon:IconHandshake,n:'Service',d:'Placing the needs of our clients and communities at the heart of every decision we make.'},
-  {Icon:IconShield,n:'Integrity',d:'Transparent, honest, and ethical in all our dealings — building trust that lasts a lifetime.'},
+  {Icon:IconShield,n:'Integrity',d:'Transparent, honest, and ethical in all our dealings, building trust that lasts a lifetime.'},
   {Icon:IconCrown,n:'Leadership',d:'Cultivating leaders at every level who inspire change and drive meaningful impact across Africa.'},
   {Icon:IconTarget,n:'Discipline',d:'Consistent focus, structured execution, and unwavering commitment to delivering on our promises.'},
   {Icon:IconCpu,n:'Technology',d:'Leveraging AI and cutting-edge tools to unlock efficiency and create scalable solutions for growth.'},
@@ -48,7 +48,7 @@ export default function AboutClient(){
     return()=>ctx.revert();
   },[]);
   return(<>
-    <PageHero pageKey="about" tag="Our Story" title="Building Africa," titleEm="One Startup at a Time" subtitle="From idea validation to market entry and global scale — Servelead Global is your end-to-end growth partner."/>
+    <PageHero pageKey="about" tag="Our Story" title="Building Africa," titleEm="One Startup at a Time" subtitle="From idea validation to market entry and global scale  Servelead Global is your end to end growth partner."/>
     <div ref={ref}>
       {/* STORY */}
       <section className="s-sec section-pad" style={{background:C.D}}>
@@ -57,11 +57,11 @@ export default function AboutClient(){
             <div className="sl">
               <div className="tag" style={{marginBottom:'22px'}}>Our Origin</div>
               <h2 style={{marginBottom:'20px'}}>Born from a<br/><em style={{color:C.L,fontStyle:'italic'}}>Bold Vision</em></h2>
-              <p style={{marginBottom:'16px',color:C.GL}}>Servelead Global was founded on a simple but powerful belief: African businesses deserve world-class support. We saw talented entrepreneurs held back not by capability, but by access — to AI tools, funding, networks, and knowledge.</p>
+              <p style={{marginBottom:'16px',color:C.GL}}>Servelead Global was founded on a simple but powerful belief: African businesses deserve world class support. We saw talented entrepreneurs held back not by capability, but by access — to AI tools, funding, networks, and knowledge.</p>
               <p style={{marginBottom:'16px',color:C.GL}}>We take startups from idea validation all the way to market entry, fund readiness, and sustainable scale.</p>
-              <p style={{marginBottom:'36px',color:C.GL}}>Today, we operate five organizations — each solving a specific piece of Africa's business puzzle — under one unified vision.</p>
+              <p style={{marginBottom:'36px',color:C.GL}}>Today, we operate five organizations each solving a specific piece of Africa's business puzzle under one unified vision.</p>
               <ul style={{listStyle:'none',display:'flex',flexDirection:'column',gap:'10px',marginBottom:'36px'}}>
-                {['World-class AI-powered support','End-to-end startup development','$350K+ in development funds managed'].map(i=>(
+                {['World class AI powered support','End to end startup development','$350K+ in development funds managed'].map(i=>(
                   <li key={i} style={{display:'flex',gap:'10px',alignItems:'center',fontSize:'0.9rem',color:C.GL}}>
                     <span style={{color:C.L,flexShrink:0}}><IconCheck size={15}/></span>{i}
                   </li>

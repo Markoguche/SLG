@@ -9,7 +9,7 @@ export default function Footer(){
         <div style={{display:'grid',gridTemplateColumns:'1.6fr 1fr 1fr 1fr',gap:'clamp(28px,4vw,56px)',paddingBottom:'56px',borderBottom:'1px solid rgba(255,255,255,0.05)'}} className="ft-grid">
           <div>
             <Link href="/" style={{display:'flex',alignItems:'center',gap:'10px',marginBottom:'20px',textDecoration:'none'}}>
-              <img src="/logo.png" alt="Servelead Global" style={{height:'34px',width:'auto',maxWidth:'120px',objectFit:'contain'}} onError={e=>{e.target.style.display='none';e.target.nextSibling.style.display='flex';}}/>
+              <img src="/logo.png" alt="Servelead Global" style={{height:'34px',width:'auto',maxWidth:'120px',objectFit:'contain'}} onError={(e)=>{const t=e.target as HTMLImageElement;t.style.display='none';const n=t.nextSibling as HTMLElement|null;if(n)n.style.display='flex';}}/>
               <div style={{display:'none',width:'34px',height:'34px',background:C.lime,clipPath:'polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%)',alignItems:'center',justifyContent:'center',flexShrink:0}}><span style={{color:C.dark,fontWeight:900,fontFamily:'var(--font-d)',fontSize:'0.9rem'}}>S</span></div>
               <span style={{fontFamily:'var(--font-d)',fontWeight:700,fontSize:'1.1rem',color:C.cream}}>Serve<span style={{color:C.lime}}>lead</span></span>
             </Link>
