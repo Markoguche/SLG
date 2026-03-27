@@ -36,7 +36,7 @@ function ShapeAbout() {
     <svg ref={ref} viewBox="0 0 400 400"
       style={{ position:'absolute', right:'-5%', top:'-10%', width:'clamp(240px,38vw,480px)', pointerEvents:'none', overflow:'visible' }}>
       <circle id="ab-c1" cx="200" cy="200" r="180" fill="none" stroke={L} strokeWidth="1"
-        strokeDasharray="1131" strokeDashoffset="1131" strokeDashoffsetanimation="none" opacity={0.18}/>
+        strokeDasharray="1131" strokeDashoffset="1131"  opacity={0.18}/>
       <circle id="ab-c2" cx="200" cy="200" r="130" fill="none" stroke={L} strokeWidth="0.7"
         strokeDasharray="817"  strokeDashoffset="817"  opacity={0.12}/>
       <circle id="ab-c3" cx="200" cy="200" r="80"  fill="none" stroke={L} strokeWidth="2"
