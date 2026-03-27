@@ -27,7 +27,15 @@ const miles=[
   {y:'2025',e:'AI-BaaS Launch',d:'Launched AI-Driven Business Development as a Service across the group.'},
 ];
 const partners=['World Bank','UNDP','French Embassy','MacArthur Foundation','NITDA','IREX','AfriLabs','UNESCO','Luminate','JCI Abuja','FCT-DRTS','Convexity','Paxful','Neocloud','DIAL','Kukah Centre','LEAP Africa','Nigeria Jubilee Fellows','CITDA','Hubbon'];
-
+export const metadata = {
+  title: 'About Us | ServeLead Global',
+  description: 'Learn about ServeLead Global, our mission, vision, and how we help businesses succeed.',
+  openGraph: {
+    title: 'About ServeLead Global',
+    description: 'Our mission and story.',
+    url: 'https://serveleadglobal.net/about',
+  },
+};
 export default function AboutClient(){
   const ref=useRef(null);
   useEffect(()=>{
