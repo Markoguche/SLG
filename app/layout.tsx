@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     description: "AI-Powered Business Development for Africa's Future",
   },
   icons: { icon: '/logo.png' },
+  
 };
 
 export const viewport: Viewport = {
