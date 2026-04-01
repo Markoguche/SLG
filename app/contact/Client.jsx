@@ -45,7 +45,7 @@ export default function ContactClient(){
                 <h2 style={{marginBottom:'20px'}}>Start A<br/><em style={{color:C.lime,fontStyle:'italic'}}>Conversation</em></h2>
                 <p style={{marginBottom:'40px',color:C.gl}}>Our team typically responds within 24 hours. For urgent inquiries, reach us directly via email or visit our Abuja office.</p>
                 <div style={{display:'flex',flexDirection:'column',gap:'20px',marginBottom:'44px'}}>
-                  {[{Icon:IconGlobe,label:'Website',val:'www.serveleadglobal.net'},{Icon:IconMail,label:'Email',val:'serveleadglobal@gmail.com'},{Icon:IconMapPin,label:'Location',val:'Plot 265/266 Beside KingFem Plaza, Mabushi, Abuja'},{Icon:IconClock,label:'Hours',val:'Mon–Fri: 8AM – 6PM WAT'}].map(({Icon,label,val})=>(
+                  {[{Icon:IconGlobe,label:'Website',val:'www.serveleadglobal.net'},{Icon:IconMail,label:'Email',val:'serveleadglobal@gmail.com'},{Icon:IconMapPin,label:'Location',val:'Plot 265/266 Beside KingFem Plaza, Mabushi, Abuja'},{Icon:IconClock,label:'Hours',val:'Mon–Fri: 8:30AM – 5PM WAT'}].map(({Icon,label,val})=>(
                     <div key={label} style={{display:'flex',gap:'14px',alignItems:'flex-start'}}>
                       <div style={{width:'40px',height:'40px',background:'rgba(184,255,0,0.08)',border:'1px solid rgba(184,255,0,0.2)',display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
                         <Icon size={18} color={C.lime}/>
